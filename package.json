@@ -10,5 +10,6 @@
     "watch": "npm-watch"
   },
   "dependencies": {
+    "truffle-core": "^4.1.12"
   }
 }
