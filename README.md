@@ -1,4 +1,22 @@
-# 1st Solidity Gas Golfing Contest
+#Brainfuck compilator on smart contracts written in solidity that can be run on the Ethereum blockchain.
+Yes your read rigth. 
+
+This project was forked from the 1st Solidity Gas Golfing Contest: [g.solidity.cc](http://g.solidity.cc/), but I did not compete in this competition. 
+
+This smart contract code is not optimized. I wrote it to refreshen my skills in solidity code.
+
+Instruction to run tests:
+```
+sudo npm install -g truffle
+git clone https://github.com/kimborgen/brainfuck-compilator-on-blockchain.git
+cd brainfuck-compilator-on-blockchain
+npm install
+truffle compile
+truffle migrate
+truffle test
+```
+
+# 1st Solidity Gas Golfing Contest Description
 
 The Solidity Gas Golfing Contest is a competition for Solidity coders to produce the most gas-efficient code they can for a series of straightforward challenges. The 1st SGGC will run from 23 May to 31 June 2018.
 
